@@ -1,0 +1,19 @@
+<%- include('./partials/header.ejs') %>
+<%- include('./partials/navbar.ejs') %>
+
+<div class="container mt-2">
+        <h5 class="text-center alert alert-warning">Login Here..</h5>
+        <form method="post">
+                <div class="form-group">
+                  <label for="text">Email address</label>
+                  <input type="text" class="form-control" name="uemail" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="text">Password</label>
+                  <input type="password" class="form-control" name="upassword" placeholder="Password">
+                </div>
+                <input type="submit" class="btn btn-primary" value="Login" >
+              </form>
+</div>
+
+<%- include('./partials/footer.ejs') %>
